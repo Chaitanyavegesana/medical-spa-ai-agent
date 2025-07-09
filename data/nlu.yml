@@ -1,0 +1,46 @@
+version: "3.1"
+nlu:
+  - intent: greet
+    examples: |
+      - hi
+      - hello
+      - hey
+      - good morning
+      - good afternoon
+
+  - intent: book_appointment
+    examples: |
+     - I want to book a [HydraFacial](treatment) on [Monday](date)
+     - Book a [Botox](treatment) for me on [Friday](date)
+     - My name is [Chaitanya](name)
+     - Email is [chaitu@email.com](email)
+     - Phone is [1234567890](phone)
+
+  - intent: ask_treatment
+    examples: |
+      - What treatments do you offer?
+      - Tell me about your services
+      - List spa treatments
+      - What can I get here?
+      
+
+  - intent: provide_info
+    examples: |
+      - My name is [Alex](name)
+      - Email is [alex@email.com](email)
+      - Phone number is [1234567890](phone)
+      - I want [Botox](treatment) on [Monday](date)
+  - intent: goodbye
+    examples: |
+      - bye
+      - see you later
+      - goodbye
+      - I'm done
+      - exit
+  - intent: bot_challenge
+    examples: |
+     - are you a bot?
+     - are you real?
+     - who made you?
+     - what are you?
+     - are you a human?

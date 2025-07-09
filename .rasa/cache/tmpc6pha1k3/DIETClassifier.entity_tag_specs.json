@@ -1,0 +1,52 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-date",
+      "2": "I-date",
+      "3": "L-date",
+      "4": "U-date",
+      "5": "B-email",
+      "6": "I-email",
+      "7": "L-email",
+      "8": "U-email",
+      "9": "B-name",
+      "10": "I-name",
+      "11": "L-name",
+      "12": "U-name",
+      "13": "B-phone",
+      "14": "I-phone",
+      "15": "L-phone",
+      "16": "U-phone",
+      "17": "B-treatment",
+      "18": "I-treatment",
+      "19": "L-treatment",
+      "20": "U-treatment",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-date": 1,
+      "I-date": 2,
+      "L-date": 3,
+      "U-date": 4,
+      "B-email": 5,
+      "I-email": 6,
+      "L-email": 7,
+      "U-email": 8,
+      "B-name": 9,
+      "I-name": 10,
+      "L-name": 11,
+      "U-name": 12,
+      "B-phone": 13,
+      "I-phone": 14,
+      "L-phone": 15,
+      "U-phone": 16,
+      "B-treatment": 17,
+      "I-treatment": 18,
+      "L-treatment": 19,
+      "U-treatment": 20,
+      "O": 0
+    },
+    "num_tags": 21
+  }
+]
