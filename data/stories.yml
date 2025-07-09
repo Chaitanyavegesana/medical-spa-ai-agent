@@ -1,0 +1,45 @@
+version: "3.1"
+stories:
+
+- story: greet and ask about treatments
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_treatment
+  - action: utter_ask_treatment
+
+- story: book appointment flow
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: book_appointment
+  - action: utter_ask_name
+  - intent: provide_info
+  - action: utter_ask_email
+  - intent: provide_info
+  - action: utter_ask_phone
+  - intent: provide_info
+  - action: utter_ask_treatment
+  - intent: provide_info
+  - action: utter_ask_date
+  - intent: provide_info
+  - action: utter_confirm
+  - action: action_save_appointment
+
+- story: challenge the bot
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+- story: book a treatment
+  steps:
+    - intent: book_appointment
+    - action: appointment_form
+    - active_loop: appointment_form
+    - active_loop: null
+    - action: action_save_appointment
+    - action: utter_confirm

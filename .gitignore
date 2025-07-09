@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# Rasa artifacts
+models/
+*.tar.gz
+
+# Local env vars
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+
