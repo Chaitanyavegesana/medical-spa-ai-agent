@@ -4,12 +4,13 @@ __pycache__/
 
 # Virtual env
 .venv/
-env/
+.env/
 venv/
 
 # Rasa artifacts
 models/
 *.tar.gz
+.rasa/
 
 # Local env vars
 .env
